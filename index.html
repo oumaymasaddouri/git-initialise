@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- navigation bar -->
+      <nav>
+        <ul>
+          <a href="#Projects">
+            <li>Projects</li>
+          </a>
+          <a href="#currently">
+            <li>currently</li>
+          </a>
+          <a href="#contact">
+            <li>contacts Me</li>
+          </a>
+        </ul>
+      </nav>
+      <br />
+    </header>
+    <!-- main part -->
+    <main>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <section>
+        <!-- introduction Part -->
+        <div class="bio">
+          <h3>I am Mouhamed Bouazzi and this is a little bit about myself</h3>
+          <p>
+            I am a freshly gratuated from the higher Institute of Technological
+            Studies with a computer system development diploma
+          </p>
+        </div>
+        <div class="grad">
+          <img src="./assets/graduation.jpg" alt="graduation" />
+        </div>
+      </section>
+      <!-- Projects Part -->
+      <section class="projects" id="projects">
+        <div>
+          <div>
+            <center>
+              <h2>Projects</h2>
+              <img
+                src="https://www.logolynx.com/images/logolynx/d2/d215b0613faf814df391578d2625872f.png"
+                alt="projets"
+                width="200"
+              />
+            </center>
+          </div>
+        </div>
+        <div>
+          <p class="project-details">
+            This ladies and gentlman is my graduation projects And its about a
+            web application of a lawyer managment office
+          </p>
+          <button type="submit">See more</button>
+          <br />
+          <img
+            class="project-pic"
+            src="./assets/pfe.png"
+            alt="pfe"
+            width="1000"
+          />
+        </div>
+        <div>
+          <p>
+            And this what my first program i wrote it when i was 15 years old
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Dq5sM1FFLQo?controls=0&amp;start=2"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section id="currently">
+        <!-- Currently part -->
+        <div>
+          <center>
+            <h2>Currently</h2>
+            <img
+              src="https://logos.flamingtext.com/Word-Logos/currently-design-sketch-name.png"
+              alt="Currently"
+              width="200"
+            />
+          </center>
+        </div>
+        <div>
+          <p>
+            currently am having courses to become a FullStack JS developer at
+            GoMyCode
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MraMDDXcWBk?controls=0&amp;start=2"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <!-- footer part -->
+    <footer class="contact" id="contact">
+      <!-- contact me part -->
+      <div>
+        <center>
+          <h2>Contact me</h2>
+          <img src="./assets/download.png" alt="" width="100" />
+        </center>
+      </div>
+      <div class="pic">
+        <a href="https://www.facebook.com/Mouhamed.bouazzi">
+          <img src="./assets/fb.png" alt="facebook" width="200px" />
+        </a>
+        <a href="https://www.instagram.com/mouhamed.bouazzi">
+          <img src="./assets/instagram.png" alt="insta" width="200px" />
+        </a>
+        <a href="https://tn.linkedin.com/in/mouhamed-bouazzi-a44881140">
+          <img src="./assets/link.png" alt="link" width="200px" />
+        </a>
+      </div>
+      <div>
+        <form action="POST">
+          <label for="fname">First name:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First name"
+          /><br />
+          <label for="lname">Last name:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last name"
+          /><br />
+          <!-- <label>Enter your email</label> -->
+          <label for="lname">Email:</label><br />
+          <input type="email" required placeholder="enter your email" /><br />
+          <input type="submit" />
+        </form>
+      </div>
+      <a href="mailto:abc@example.com?subject = Feedback&body = Message">
+        Send Feedback
+      </a>
+    </footer>
+  </body>
+</html>
